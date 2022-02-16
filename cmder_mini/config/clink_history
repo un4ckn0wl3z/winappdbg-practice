@@ -7,12 +7,12 @@ alias python2="C:\Python27.13\python.exe" $*
 |ls
 ls
 |ir
-ll
+|l
 ls 
 |s -lsa
 |ir
 |d winappdbg-master\
-ls -lsa
+|s -lsa
 dir
 python2 setup.py install
 |ython2
@@ -162,3 +162,31 @@ cls
 |ython 10.fuzzer.py 
 |ython 10.fuzzer.py 
 python 10.fuzzer.py 
+cd intermediate\
+ll
+ls -lsa
+|ython 01-Run.py 
+python 01-Run.py 
+python 01-Run.py -r c:\windows\system32\notepad.exe
+|ython 02-RunWithArgs.py -r c:\windows\system32\notepad.exe
+python 02-RunWithArgs.py -r c:\windows\system32\notepad.exe
+python 02-RunWithArgs.py -r c:\windows\system32\notepad.exe testfile.txt 
+python 03-SystemInfo.py -r c:\windows\system32\notepad.exe testfile.txt 
+python 03-SystemInfo.py -r c:\windows\system32\notepad.exe testfile.txt -i
+|ython 03-SystemInfo.py -i
+python 03-SystemInfo.py -i -r c:\windows\system32\notepad.exe testfile.txt
+python 03-SystemInfo.py -i
+python 04-Processes.py 
+python 05-Attach.py 
+|ython 05-Attach.py | findstr notepad
+|ython 05-Attach.py | findstr notepad
+python 05-Attach.py -pid 5200
+python 05-Attach.py -pid 15200
+python 05-Attach.py --attach-pid 15200
+python 05-Attach.py | findstr notepad
+python 05-Attach.py --attach-pid 22500
+python 05-Attach.py -pid 15200 -r c:\windows\system32\notepad.exe
+python 06-AttachByName.py | findstr notepad
+python 06-AttachByName.py -pname notepad
+python 07-Logging.py -r c:\windows\system32\notepad.exe
+python 07-Logging.py -r c:\windows\system32\notepad.exe -o log.txt

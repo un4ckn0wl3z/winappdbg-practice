@@ -1,0 +1,2 @@
+[20:42:49.0184] Started 21064 - C:\Windows\System32\notepad.exe
+[20:42:53.0075] Debugger stopped.
