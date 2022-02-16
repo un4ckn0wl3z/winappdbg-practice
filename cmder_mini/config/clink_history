@@ -5,7 +5,7 @@ alias python2="C:\Python27.13\python.exe" $*
 |d ..
 |l
 |ls
-ls
+|s
 |ir
 |l
 ls 
@@ -13,7 +13,7 @@ ls
 |ir
 |d winappdbg-master\
 |s -lsa
-dir
+|ir
 python2 setup.py install
 |ython2
 |ython2
@@ -155,7 +155,7 @@ cd fuzzer\
 |ython 10.fuzzer.py 
 |ython 10.fuzzer.py 
 |ython 10.fuzzer.py 
-cls
+|ls
 |ython 10.fuzzer.py 
 |ython 10.fuzzer.py 
 |ython 10.fuzzer.py 
@@ -163,7 +163,7 @@ cls
 |ython 10.fuzzer.py 
 python 10.fuzzer.py 
 cd intermediate\
-ll
+|l
 ls -lsa
 |ython 01-Run.py 
 python 01-Run.py 
@@ -190,3 +190,32 @@ python 06-AttachByName.py | findstr notepad
 python 06-AttachByName.py -pname notepad
 python 07-Logging.py -r c:\windows\system32\notepad.exe
 python 07-Logging.py -r c:\windows\system32\notepad.exe -o log.txt
+cd 03_function_hooking\
+ll
+|ls
+clear
+ls
+dir
+python 08-NotProcmon-LoadedModules.py 
+python 08-NotProcmon-LoadedModules.py c:\windows\system32\notepad.exe
+|ython 08-NotProcmon-LoadedModules.py -r c:\windows\system32\notepad.exe
+|ython 08-NotProcmon-LoadedModules.py -r calc.exe
+|ython 08-NotProcmon-LoadedModules.py -r calc.exe
+python 08-NotProcmon-LoadedModules.py -r c:\windows\system32\notepad.exe
+|ython 08-NotProcmon-LoadedModules.py -r calc.exe
+python 08-NotProcmon-LoadedModules.py -r calc.exe
+|ls
+python 09-NotProcmon-CreateProcess.py -r calc.exe
+python 09-NotProcmon-CreateProcess.py -r notepad
+python 09-NotProcmon-CreateProcess.py -r c:\windows\system32\notepad.exe
+python 10-BasicHook.py -r c:\windows\system32\notepad.exe
+|ls
+python 11-BetterHook.py -r c:\windows\system32\notepad.exe
+|ls
+pytyhon 12-NotEchoMirage-IE-1.py -r "c:\Program Files\Internet Explorer\iexplore.exe"
+python 12-NotEchoMirage-IE-1.py -r "c:\Program Files\Internet Explorer\iexplore.exe"
+cls
+python 12-NotEchoMirage-IE-1.py -r "C:\Program Files\Mozilla Firefox\firefox.exe"
+|ython 14-NotEchoMirage-FF.py -r "C:\Program Files\Mozilla Firefox\firefox.exe"
+python 14-NotEchoMirage-FF.py -r "C:\Program Files\Mozilla Firefox\firefox.exe"
+python 14-NotEchoMirage-FF.py -r "C:\Program Files\Mozilla Firefox\firefox.exe" -o firefox-1.txt
