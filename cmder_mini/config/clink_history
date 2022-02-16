@@ -214,8 +214,50 @@ python 11-BetterHook.py -r c:\windows\system32\notepad.exe
 |ls
 pytyhon 12-NotEchoMirage-IE-1.py -r "c:\Program Files\Internet Explorer\iexplore.exe"
 python 12-NotEchoMirage-IE-1.py -r "c:\Program Files\Internet Explorer\iexplore.exe"
-cls
+|ls
 python 12-NotEchoMirage-IE-1.py -r "C:\Program Files\Mozilla Firefox\firefox.exe"
 |ython 14-NotEchoMirage-FF.py -r "C:\Program Files\Mozilla Firefox\firefox.exe"
 python 14-NotEchoMirage-FF.py -r "C:\Program Files\Mozilla Firefox\firefox.exe"
 python 14-NotEchoMirage-FF.py -r "C:\Program Files\Mozilla Firefox\firefox.exe" -o firefox-1.txt
+cd 04_manipulating_function_calls\
+|ython 15-ModifySleep.py -r WinAPI-test.exe
+|ython 15-ModifySleep.py -r WinAPI-test.exe
+|ython 15-ModifySleep.py -r WinAPI-test.exe
+|ython 15-ModifySleep.py -r WinAPI-test.exe
+|ython 15-ModifySleep.py -r WinAPI-test.exe
+|ython 15-ModifySleep.py -r WinAPI-test.exe
+|ython 15-ModifySleep.py -r WinAPI-test.exe
+|ython 15-ModifySleep.py -r WinAPI-test.exe
+|ython 15-ModifySleep.py -r WinAPI-test.exe
+|ython 15-ModifySleep.py -r WinAPI-test.exe
+|ython 15-ModifySleep.py -r WinAPI-test.exe
+|ython 15-ModifySleep.py -r WinAPI-test.exe
+python 15-ModifySleep.py -r WinAPI-test-x64.exe 
+|ython 15-ModifySleep.py -r WinAPI-test.exe
+|ython 15-ModifySleep.py -r WinAPI-test.exe
+|ython 15-ModifySleep.py -r WinAPI-test.exe
+|ython 15-ModifySleep.py -r WinAPI-test.exe
+|ython 15-ModifySleep.py -r WinAPI-test.exe
+|ython 15-ModifySleep.py -r WinAPI-test.exe
+|ython 15-ModifySleep.py -r WinAPI-test.exe
+|ython 15-ModifySleep.py -r WinAPI-test.exe
+|ython 15-ModifySleep.py -r WinAPI-test.exe
+|ython 15-ModifySleep.py -r WinAPI-test.exe
+|ython 15-ModifySleep.py -r WinAPI-test.exe
+|ython 15-ModifySleep.py -r WinAPI-test.exe
+|ython 15-ModifySleep.py -r WinAPI-test.exe
+|ython 15-ModifySleep.py -r WinAPI-test.exe
+python 15-ModifySleep.py -r WinAPI-test.exe
+cls
+python 16-ModifyDomain-IE.py -r "c:\program files\Internet Explorer\iexplore.exe"
+python 17-CalcRecon.py -r calc
+|ython 17-CalcRecon.py -r calc.exe
+|ython 17-CalcRecon.py -r calc.exe
+|ython 17-CalcRecon.py -r calc.exe
+python 17-CalcRecon.py -r calc.exe
+calc1
+|ython 17-CalcRecon.py -r calc1.exe
+python 17-CalcRecon.py -r calc1.exe
+|ython 18-CalcLayout.py -r calc1.exe
+|ython 18-CalcLayout.py -r calc1.exe
+python 18-CalcLayout.py -r calc1.exe
