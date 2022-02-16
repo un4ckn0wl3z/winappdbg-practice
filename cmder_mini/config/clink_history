@@ -1,0 +1,164 @@
+|CTAG_1644934880_180625968_37420_0
+|ython
+alias python2="C:\Python27.13\python.exe" $*
+|ython2
+|d ..
+|l
+|ls
+ls
+|ir
+ll
+ls 
+|s -lsa
+|ir
+|d winappdbg-master\
+ls -lsa
+dir
+python2 setup.py install
+|ython2
+|ython2
+alias python2="C:\Python27\python.exe" $*
+python2 
+alias python="C:\Python27\python.exe" $*
+|ython
+|ython2
+..\winappdbg-master\install.bat 
+|d ..
+cd winappdbg-master\
+.\install.bat 
+alias /d python2
+|ython
+python2
+|ython
+cd ..
+|ython 01.launch.py 
+|ython 02.launch_pid.py 
+|ython 02.launch_pid.py 
+|ython 02.launch_pid.py 
+|ython 03.launch_debugging_events.py 
+|ython 03.launch_debugging_events.py 
+|ython
+python 01.launch.py 
+python 02.launch_pid.py 
+|ython 03.launch_debugging_events.py 
+python 03.launch_debugging_events.py 
+แสห
+|ls
+python 04.breakpoint.py 
+|ython 05.accress_register.py 
+|ls
+|ython 05.accress_register.py 
+|ython 05.accress_register.py 
+|ython 05.accress_register.py 
+|ls
+|ython 05.accress_register.py 
+|ython 05.accress_register.py 
+|ython 05.accress_register.py 
+|ls
+python 05.accress_register.py 
+python 06.read_mem.py 
+python
+|ls
+|ython 07.enum_process_thread_and_loaded_module.py 
+python 07.enum_process_thread_and_loaded_module.py 
+|ython 08.api_hook.py 
+|ython 08.api_hook.py 
+|ython 08.api_hook.py 
+|ython 08.api_hook.py 
+|ython 08.api_hook.py 
+|ython 08.api_hook.py 
+|ython 08.api_hook.py 
+|ython 08.api_hook.py 
+|ython 08.api_hook.py 
+|ython 08.api_hook.py 
+|ython 08.api_hook.py 
+|ython 08.api_hook.py 
+|ython 08.api_hook.py 
+|ython 08.api_hook.py 
+|ython 08.api_hook.py 
+|ython 08.api_hook.py 
+|ls
+|ython 08.api_hook.py 
+|ython 08.api_hook.py 
+|ython 08.api_hook.py 
+|ython 08.api_hook.py 
+|ython 08.api_hook.py 
+|ython 08.api_hook.py 
+|ython 08.api_hook.py 
+|ython 08.api_hook.py 
+|ython 08.api_hook.py 
+|ython 08.api_hook.py 
+|ython 08.api_hook.py 
+|ython 08.api_hook.py 
+|ython 08.api_hook.py 
+|ython 08.api_hook.py 
+|ython 08.api_hook.py 
+|ython 08.api_hook.py 
+|ython 08.api_hook.py 
+|ython 08.api_hook.py 
+|ython 08.api_hook.py 
+|ython 08.api_hook.py 
+|ython 08.api_hook.py 
+|ython 08.api_hook.py 
+|ython 08.api_hook.py 
+|ython 08.api_hook.py 
+|ython 08.api_hook.py 
+|ython 08.api_hook.py 
+|ython 08.api_hook.py 
+|ython 08.api_hook.py 
+|ython 08.api_hook.py 
+|ython 08.api_hook.py 
+|ython 08.api_hook.py 
+|ython 08.api_hook.py 
+|ython 08.api_hook.py 
+|ython 08.api_hook.py 
+|ython 08.api_hook.py 
+|ython 08.api_hook.py 
+|ython 08.api_hook.py 
+|ython 08.api_hook.py 
+|ython 08.api_hook.py 
+|ython 08.api_hook.py 
+python 08.api_hook.py 
+|ython 09.exception.py 
+|ython 09.exception.py 
+|ython 09.exception.py 
+|ython 09.exception.py 
+python 09.exception.py 
+python .\fuzzer\10.fuzzer.py 
+|ls
+cd fuzzer\
+|ython 10.fuzzer.py 
+|ython 10.fuzzer.py 
+|ython 10.fuzzer.py 
+|ython 10.fuzzer.py 
+|ython 10.fuzzer.py 
+|ython 10.fuzzer.py 
+|ython 10.fuzzer.py 
+|ython 10.fuzzer.py 
+|ython 10.fuzzer.py 
+|ython 10.fuzzer.py 
+|ython 10.fuzzer.py 
+|ython 10.fuzzer.py 
+|ython 10.fuzzer.py 
+|ython 10.fuzzer.py 
+|ython 10.fuzzer.py 
+|ython 10.fuzzer.py 
+|ython 10.fuzzer.py 
+|ython 10.fuzzer.py 
+|ython 10.fuzzer.py 
+|ython 10.fuzzer.py 
+|ython 10.fuzzer.py 
+|ython 10.fuzzer.py 
+|ython 10.fuzzer.py 
+|ython 10.fuzzer.py 
+|ython 10.fuzzer.py 
+|ython 10.fuzzer.py 
+|ython 10.fuzzer.py 
+|ython 10.fuzzer.py 
+cls
+|ython 10.fuzzer.py 
+|ython 10.fuzzer.py 
+|ython 10.fuzzer.py 
+|ython 10.fuzzer.py 
+|ython 10.fuzzer.py 
+python 10.fuzzer.py 

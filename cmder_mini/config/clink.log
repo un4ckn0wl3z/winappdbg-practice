@@ -1,0 +1,80 @@
+13d0 start_logger              154 ---- 2022/02/16 12:07:12.812 -------------------------------------------------
+13d0 start_logger              160 Host process is 'cmd.exe' (pid 5072)
+13d0 start_logger              164 DLL path is 'D:\Projects\winappdbg-practice\cmder_mini\vendor\clink'
+13d0 start_logger              178 Windows version 10.0.19044 (x64)
+13d0 start_logger              181 Clink version 1.2.46.69fc92 (x64)
+13d0 hook_setter::hook_setter  156 >>> Started hook transaction.
+13d0 hook_setter::attach_iat   313 Attempting to hook SetEnvironmentVariableW in IAT for module 00007FF6F2AB0000.
+13d0 pe_info::iterate_imports  160 Found import in 'api-ms-win-core-processenvironment-l1-1-0.dll'
+13d0 find_iat                  121 Found import at 00007FF6F2AE3860 (value is 00007FFE778BC370).
+13d0 hook_setter::attach_iat   313 Attempting to hook WriteConsoleW in IAT for module 00007FF6F2AB0000.
+13d0 pe_info::iterate_imports  160 Found import in 'api-ms-win-core-console-l1-1-0.dll'
+13d0 find_iat                  121 Found import at 00007FF6F2AE34F8 (value is 00007FFE778615C0).
+13d0 hook_setter::attach_iat   313 Attempting to hook GetEnvironmentVariableW in IAT for module 00007FF6F2AB0000.
+13d0 pe_info::iterate_imports  160 Found import in 'api-ms-win-core-processenvironment-l1-1-0.dll'
+13d0 find_iat                  121 Found import at 00007FF6F2AE3880 (value is 00007FFE7787AB60).
+13d0 hook_setter::commit       204 <<< Hook transaction committed.
+13d0 hook_setter::hook_setter  156 >>> Started hook transaction.
+13d0 hook_setter::detach_iat   356 Attempting to unhook 00007FFE3E84ADF0 from GetEnvironmentVariableW in IAT for module 00007FF6F2AB0000.
+13d0 pe_info::iterate_imports  160 Found import in 'api-ms-win-core-processenvironment-l1-1-0.dll'
+13d0 find_iat                  121 Found import at 00007FF6F2AE3880 (value is 00007FFE3E84ADF0).
+13d0 hook_setter::commit       204 <<< Hook transaction committed.
+13d0 hook_setter::hook_setter  156 >>> Started hook transaction.
+13d0 hook_setter::attach_iat   313 Attempting to hook ReadConsoleW in IAT for module 00007FF6F2AB0000.
+13d0 pe_info::iterate_imports  160 Found import in 'api-ms-win-core-console-l1-1-0.dll'
+13d0 find_iat                  121 Found import at 00007FF6F2AE34E0 (value is 00007FFE7794E530).
+13d0 hook_setter::commit       204 <<< Hook transaction committed.
+13d0 win_screen_buffer::begin  227 Using native terminal support; found 'ConEmuHk64.dll'.
+13d0 history_db::initialise   1268 master bank ctag: |CTAG_1644934880_180625968_37420_0
+13d0 history_db::compact      1492 History:  27 active, 93 deleted
+13d0 history_db::compact      1492 History:  28 active, 93 deleted
+13d0 history_db::compact      1492 History:  28 active, 94 deleted
+13d0 reset_handle              145 resetting mismatched stdout handle
+13d0 history_db::compact      1492 History:  28 active, 95 deleted
+13d0 history_db::compact      1492 History:  28 active, 96 deleted
+13d0 history_db::compact      1492 History:  28 active, 97 deleted
+13d0 history_db::compact      1492 History:  28 active, 97 deleted
+13d0 history_db::compact      1492 History:  29 active, 97 deleted
+13d0 history_db::compact      1492 History:  29 active, 98 deleted
+13d0 history_db::compact      1492 History:  30 active, 98 deleted
+13d0 history_db::compact      1492 History:  31 active, 98 deleted
+13d0 history_db::compact      1492 History:  31 active, 99 deleted
+13d0 reset_handle              145 resetting mismatched stdout handle
+13d0 history_db::compact      1492 History:  31 active, 100 deleted
+13d0 history_db::compact      1492 History:  31 active, 101 deleted
+13d0 history_db::compact      1492 History:  31 active, 102 deleted
+13d0 history_db::compact      1492 History:  31 active, 103 deleted
+13d0 history_db::compact      1492 History:  31 active, 104 deleted
+13d0 history_db::compact      1492 History:  31 active, 105 deleted
+13d0 history_db::compact      1492 History:  31 active, 106 deleted
+13d0 history_db::compact      1492 History:  31 active, 107 deleted
+13d0 history_db::compact      1492 History:  31 active, 108 deleted
+13d0 reset_handle              145 resetting mismatched stdout handle
+13d0 history_db::compact      1492 History:  31 active, 109 deleted
+13d0 history_db::compact      1492 History:  31 active, 110 deleted
+13d0 history_db::compact      1492 History:  31 active, 111 deleted
+13d0 history_db::compact      1492 History:  31 active, 112 deleted
+13d0 history_db::compact      1492 History:  31 active, 113 deleted
+13d0 history_db::compact      1492 History:  31 active, 114 deleted
+13d0 history_db::compact      1492 History:  31 active, 115 deleted
+13d0 history_db::compact      1492 History:  31 active, 116 deleted
+13d0 history_db::compact      1492 History:  31 active, 117 deleted
+13d0 history_db::compact      1492 History:  31 active, 118 deleted
+13d0 history_db::compact      1492 History:  31 active, 119 deleted
+13d0 history_db::compact      1492 History:  31 active, 120 deleted
+13d0 reset_handle              145 resetting mismatched stdout handle
+13d0 history_db::compact      1492 History:  31 active, 121 deleted
+13d0 history_db::compact      1492 History:  31 active, 122 deleted
+13d0 reset_handle              145 resetting mismatched stdout handle
+13d0 reset_handle              145 resetting mismatched stderr handle
+13d0 history_db::compact      1492 History:  31 active, 123 deleted
+13d0 history_db::compact      1492 History:  31 active, 124 deleted
+13d0 history_db::compact      1492 History:  31 active, 125 deleted
+13d0 history_db::compact      1492 History:  31 active, 126 deleted
+13d0 reset_handle              145 resetting mismatched stdout handle
+13d0 history_db::compact      1492 History:  31 active, 127 deleted
+13d0 history_db::compact      1492 History:  31 active, 128 deleted
+13d0 history_db::compact      1492 History:  31 active, 129 deleted
+13d0 history_db::compact      1492 History:  31 active, 130 deleted
+13d0 history_db::compact      1492 History:  31 active, 131 deleted
+13d0 history_db::compact      1492 History:  31 active, 132 deleted
