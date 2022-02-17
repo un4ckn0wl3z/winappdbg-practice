@@ -219,7 +219,7 @@ python 12-NotEchoMirage-IE-1.py -r "C:\Program Files\Mozilla Firefox\firefox.exe
 |ython 14-NotEchoMirage-FF.py -r "C:\Program Files\Mozilla Firefox\firefox.exe"
 python 14-NotEchoMirage-FF.py -r "C:\Program Files\Mozilla Firefox\firefox.exe"
 python 14-NotEchoMirage-FF.py -r "C:\Program Files\Mozilla Firefox\firefox.exe" -o firefox-1.txt
-cd 04_manipulating_function_calls\
+|d 04_manipulating_function_calls\
 |ython 15-ModifySleep.py -r WinAPI-test.exe
 |ython 15-ModifySleep.py -r WinAPI-test.exe
 |ython 15-ModifySleep.py -r WinAPI-test.exe
@@ -261,3 +261,7 @@ python 17-CalcRecon.py -r calc1.exe
 |ython 18-CalcLayout.py -r calc1.exe
 |ython 18-CalcLayout.py -r calc1.exe
 python 18-CalcLayout.py -r calc1.exe
+strings -o -nobanner .\greek_to_me.exe 
+|ython 19-GreekToMe.py 
+cd 04_manipulating_function_calls\
+python 19-GreekToMe.py 
